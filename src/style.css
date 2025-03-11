@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "primeicons/primeicons.css";
+
+@layer components {
+  .button {
+    @apply bg-yellow-200 text-gray-700 font-bold px-4 py-2 rounded cursor-pointer;
+  }
+}
